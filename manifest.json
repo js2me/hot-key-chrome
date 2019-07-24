@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hot Key",
+  "description": "Allows to create hotkeys for specific tabs in your browser",
+  "version": "1.0",
+  "author": "Sergey S. Volkov",
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "My custom google Extension"
+  },
+  "permissions": [
+      "tabs",
+      "activeTab"
+   ]
+}
